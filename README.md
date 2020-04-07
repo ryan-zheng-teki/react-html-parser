@@ -1,3 +1,9 @@
+# Task Algorithm Improvement
+The current algorithm uses recursive way of parsing the nodes. When the html nodes gets deeper, it will cause memory and 
+performance issues. The improvement should be about changing the recursive parsing to non-recursive parsing.
+
+
+
 # React HTML Parser
 
 A utility for converting HTML strings into [React](https://facebook.github.io/react/) components. Avoids the use of dangerouslySetInnerHTML and converts standard HTML elements, attributes and inline styles into their React equivalents.
